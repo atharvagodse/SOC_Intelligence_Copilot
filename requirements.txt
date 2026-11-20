@@ -1,0 +1,42 @@
+# ==============================================================================
+# Enterprise SOC Intelligence Copilot — Dependencies
+# Python 3.12 | Last updated: 2026-11-20
+# ==============================================================================
+
+# ── Web / UI ───────────────────────────────────────────────────────────────────
+streamlit==1.41.1
+
+# ── RAG Framework ─────────────────────────────────────────────────────────────
+langchain==0.3.14
+langchain-community==0.3.14
+langchain-core==0.3.29
+
+# ── Embedding Model (CPU-compatible, lightweight ~90 MB) ──────────────────────
+sentence-transformers==3.3.1
+
+# ── Vector Database ───────────────────────────────────────────────────────────
+chromadb==0.6.3
+
+# ── LLM Integration (Ollama local runtime) ────────────────────────────────────
+ollama==0.4.5
+langchain-ollama==0.2.2
+
+# ── Document Loaders ──────────────────────────────────────────────────────────
+pymupdf==1.25.1          # PDF extraction  (import as fitz)
+python-docx==1.1.2       # DOCX extraction
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+python-dotenv==1.0.1     # Load .env configuration
+pydantic==2.10.4         # Data validation / settings
+pydantic-settings==2.7.0
+tiktoken==0.8.0          # Token counting utilities
+tenacity==9.0.0          # Retry logic for LLM calls
+rich==13.9.4             # Pretty console output / logging
+
+# ── Testing ───────────────────────────────────────────────────────────────────
+pytest==8.3.4
+pytest-cov==6.0.0
+
+# ── Dev / Linting (optional but recommended) ──────────────────────────────────
+# ruff==0.8.4
+# mypy==1.13.0

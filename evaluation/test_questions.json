@@ -1,0 +1,41 @@
+{
+  "description": "SOC Intelligence Copilot — RAG evaluation dataset (Phase 11)",
+  "version": "0.1.0",
+  "questions": [
+    {
+      "id": "q001",
+      "category": "incident_response",
+      "question": "What are the four phases of the NIST incident response lifecycle?",
+      "expected_keywords": ["preparation", "detection", "containment", "recovery"],
+      "source_document": "NIST_SP_800-61"
+    },
+    {
+      "id": "q002",
+      "category": "mitre_attack",
+      "question": "What MITRE ATT&CK technique is associated with brute-force credential attacks?",
+      "expected_keywords": ["T1110", "brute force", "credential"],
+      "source_document": "enterprise-attack"
+    },
+    {
+      "id": "q003",
+      "category": "threat_intelligence",
+      "question": "What are common indicators of a phishing attack?",
+      "expected_keywords": ["email", "malicious link", "attachment", "social engineering"],
+      "source_document": "threat_intelligence"
+    },
+    {
+      "id": "q004",
+      "category": "incident_response",
+      "question": "How should a SOC analyst respond to a suspected ransomware infection?",
+      "expected_keywords": ["isolate", "containment", "backup", "forensics"],
+      "source_document": "NIST_SP_800-61"
+    },
+    {
+      "id": "q005",
+      "category": "mitre_attack",
+      "question": "What is privilege escalation in the context of MITRE ATT&CK?",
+      "expected_keywords": ["privilege", "escalation", "TA0004", "administrator"],
+      "source_document": "enterprise-attack"
+    }
+  ]
+}
