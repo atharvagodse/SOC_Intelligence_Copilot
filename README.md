@@ -147,11 +147,11 @@ pytest tests/ -v
 | Phase | Description | Status |
 |-------|-------------|--------|
 | **1** | Project setup & environment | ✅ Complete |
-| **2** | Document loading (PDF, DOCX, TXT) | 🔜 Next |
-| **3** | Text cleaning & chunking | ⏳ Planned |
-| **4** | Embedding generation | ⏳ Planned |
-| **5** | ChromaDB integration | ⏳ Planned |
-| **6** | Semantic search & retrieval | ⏳ Planned |
+| **2** | Document loading (PDF, DOCX, TXT) | ✅ Complete |
+| **3** | Text cleaning & chunking | ✅ Complete |
+| **4** | Embedding generation | ✅ Complete |
+| **5** | ChromaDB integration | ✅ Complete |
+| **6** | Semantic search & retrieval | 🔜 Next |
 | **7** | Ollama LLM integration | ⏳ Planned |
 | **8** | Complete RAG pipeline | ⏳ Planned |
 | **9** | Streamlit interface | ⏳ Planned |
